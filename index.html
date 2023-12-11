@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ITMS 01</title>
+
+	<script src="js.js"></script>
+	<link href="CSS.css" rel="stylesheet">
+
+	<style type="text/css">
+		
+	</style>
+
+</head>
+
+<body>
+	
+	<video src="bgv.mp4" autoplay muted loop id="myVideo"></video>
+	
+	<div class="card">
+
+		<div class="face front">
+			<img src="img/fibo.png" alt="" /> 
+
+			<p>
+				The Fibonacci sequence, discovered by Leonardo Fibonacci in the 13th century, starts with 0 and 1, where each subsequent number is the sum of the two preceding ones. This simple yet captivating sequence has remarkable connections to nature, architecture, and art, with spirals and ratios appearing in sunflower seeds, seashells, and architectural designs.
+			</p>
+
+			<h3>Fibonacci Sequence</h3>
+
+			
+		</div>
+
+		<div class="face back">
+			<h3>Fibonacci Sequence</h3>
+			
+			<div class="result">
+				<p id="fres"></p>
+			</div>
+
+			<div class="compute">
+				  	<input type="text" name="number" id="fnum" placeholder="Enter a number:">
+				  	<br><br>
+				  	<button onclick="fibo(tnum)" class="button" data-text="Awesome">
+					  	<span class="actual-text">&nbsp;Compute&nbsp;</span>
+					  	<span aria-hidden="true" class="hover-text">&nbsp;Compute&nbsp;</span>
+				  	</button>
+			  	<br><br>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="face front">
+			<img src="img/lucas.png" alt="" />
+
+			<p>
+				The Lucas sequence, named after mathematician François Édouard Anatole Lucas, starts with 2 and 1. Like the Fibonacci sequence, each subsequent number is the sum of the two preceding ones. Though similar, Lucas has distinct initial values, offering unique mathematical properties and applications in fields such as number theory and computer science.
+			</p>
+
+			<h3>Lucas Sequence</h3>
+		</div>
+
+		<div class="face back">
+			<h3>Lucas Sequence</h3>
+			
+			<div class="result">
+				<p id="lres"></p>
+			</div>
+			
+			<div class="compute">
+				  	<input type="text" name="number" id="lnum" placeholder="Enter a number:">
+				  	<br><br>
+				  	<button onclick="lucas(lnum)" class="button" data-text="Awesome">
+					  	<span class="actual-text">&nbsp;Compute&nbsp;</span>
+					  	<span aria-hidden="true" class="hover-text">&nbsp;Compute&nbsp;</span>
+				  	</button>
+			  	<br><br>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="face front">
+			<img src="img/tribo.png" alt="" />
+
+			<p>
+				The Tribonacci sequence starts with 0, 1, 1, and each subsequent number is the sum of the three preceding ones. This captivating numerical series reveals an interconnected and cumulative pattern, creating a vibrant mathematical symphony.
+			</p>
+
+
+			<h3>Tribonacci Sequence</h3>
+		</div>
+
+		<div class="face back">
+
+			<h3>Tribonacci Sequence</h3>
+				
+			<div class="result">	
+				<p id="tres"></p>
+			</div>
+
+			<div class="compute">
+				  	<input type="text" name="number" id="tnum" placeholder="Enter a number:">
+				  	<br><br>
+				  	<button onclick="tribo(tnum)" class="button" data-text="Awesome">
+					  	<span class="actual-text">&nbsp;Compute&nbsp;</span>
+					  	<span aria-hidden="true" class="hover-text">&nbsp;Compute&nbsp;</span>
+				  	</button>
+			  	<br><br>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
